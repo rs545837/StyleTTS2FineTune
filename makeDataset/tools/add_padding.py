@@ -3,8 +3,8 @@ import os
 import glob
 
 # input path to segmentedAudio folder here and create the paddedAudio folder and put its path here as well.
-source_dir = 'path/to/segmentedAudio/folder'
-target_dir = 'path/to/paddedAudio/folder'
+source_dir = './segmentedAudio'
+target_dir = './paddedAudio'
 
 os.makedirs(target_dir, exist_ok=True)
 
